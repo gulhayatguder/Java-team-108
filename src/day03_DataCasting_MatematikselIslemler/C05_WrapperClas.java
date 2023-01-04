@@ -1,4 +1,4 @@
-package Day03_DataCasting_MatematikselIslemler;
+package day03_DataCasting_MatematikselIslemler;
 
 public class C05_WrapperClas {
     public static void main(String[] args) {
