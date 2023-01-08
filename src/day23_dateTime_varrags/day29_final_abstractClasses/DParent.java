@@ -1,4 +1,4 @@
-package day29_final_abstractClasses;
+package day23_dateTime_varrags.day29_final_abstractClasses;
 
 public abstract class DParent {
     /*  Child class'larin tamaminda method1 ve method2'nin MUTLAKA OLMASINI istiyoruz
