@@ -1,4 +1,4 @@
-package day_32_sets_maps;
+package day32_sets_maps;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package day_32_sets_maps;
+package day32_sets_maps;
 
 import java.util.HashSet;
 import java.util.Random;
@@ -12,10 +12,16 @@ public class C03_HashSet_TreeSet {
         // islem surelerini karsilastirin
         Random rnd = new Random();
         int sayi;
-        Set<Integer> hashSet= new HashSet<>();
-        Set<Integer> treeSet= new TreeSet<>();
-        Long hashBaslangic= System.currentTimeMillis();
-        for (int i = 0; i <100000 ; i++) {
+        Set<Integer> hashSet = new HashSet<>();
+        Set<Integer> treeSet = new TreeSet<>();
+        Long hashBaslangic = System.currentTimeMillis();
+
+
+
+
+
+
+       for (int i = 0; i <100000 ; i++) {
             sayi= rnd.nextInt(1000000);
             hashSet.add(sayi);
         }
@@ -28,7 +34,11 @@ public class C03_HashSet_TreeSet {
         Long treeBitis= System.currentTimeMillis();
         System.out.println("HashSet sure : " + (hashBitis-hashBaslangic));
         System.out.println("TreeSet sure : " + (treeBitis-treeBaslangic));
-    }
+
+
+
+        }
 
     }
+
 
