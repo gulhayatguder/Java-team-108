@@ -21,6 +21,7 @@ public class C06_ForEachLoopSoru {
             System.out.println("Harf cumlede kullanilmamis");
         }else{
             System.out.println(harf+ ", cumlede " + sayac+ " defa kullanilmis");
+            //e, cumlede 3 defa kullanilmis
         }
 
     }

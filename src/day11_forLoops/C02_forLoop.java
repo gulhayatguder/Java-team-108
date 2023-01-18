@@ -8,7 +8,7 @@ public class C02_forLoop {
         // ornek : Java  output: JaVa
         String input= "Java candir, Selenium heyecandir";
         for (int i = 0; i <input.length() ; i++) {
-            System.out.print  ( i%2==0   // index cift mi ?
+            System.out.print  ( i%2==0   // index cift mi ?//JaVa cAnDiR, sElEnİuM HeYeCaNdİr
                     ? input.substring(i,i+1).toUpperCase() // index cift ise
                     : input.substring(i,i+1).toLowerCase() // index cift degilse
             );

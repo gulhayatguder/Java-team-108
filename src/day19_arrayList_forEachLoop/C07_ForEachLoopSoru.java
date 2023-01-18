@@ -19,6 +19,6 @@ public class C07_ForEachLoopSoru {
                 }
             }
         }
-        System.out.println(ortakElementler);
+        System.out.println(ortakElementler);//[3, 5]
     }
 }

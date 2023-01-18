@@ -9,7 +9,7 @@ public class C03_Soru_doWhileLopp {
         char bitis='m';
 
         do {
-            System.out.print(baslangic);
+            System.out.print(baslangic);//defghijklm
             baslangic=(char)(baslangic+1);
 
         }while (baslangic<=bitis);

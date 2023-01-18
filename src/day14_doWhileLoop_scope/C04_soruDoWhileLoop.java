@@ -11,28 +11,28 @@ public class C04_soruDoWhileLoop {
         boolean sonuc= false;
         while (karekok*karekok <= input){
             if (karekok*karekok==input){
-                System.out.println("Girilen sayinin karekoku : " + karekok);
+                System.out.println("Girilen sayinin karekoku : " + karekok);//Girilen sayinin karekoku : 12
                 sonuc=true;
                 break;
             }else{
                 karekok++;
             }
         }
-        System.out.println(sonuc);
+        System.out.println(sonuc);//true
         // do while loop ile yapalim
         input=144;
         karekok=1;
         sonuc=false;
         do {
             if (karekok*karekok==input){
-                System.out.println("Girilen sayinin karekoku : " + karekok);
+                System.out.println("Girilen sayinin karekoku : " + karekok);//Girilen sayinin karekoku : 12
                 sonuc=true;
                 break;
             }else{
                 karekok++;
             }
         }while(karekok*karekok<=input);
-        System.out.println(sonuc);
+        System.out.println(sonuc);//true
 
 
 

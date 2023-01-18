@@ -11,6 +11,6 @@ public class C07_terseCevirme {
             terstenStr += str.substring(i,i+1);
         }
         System.out.println("Girilen cumlenin tersten yazilisi : " + terstenStr);
-
+        //Girilen cumlenin tersten yazilisi : mizal kamsilac koc nici kemnergo avaJ
     }
 }

@@ -14,7 +14,7 @@ public class C03_asalsayi {
                 // o loop'u bitirir
             }
         }
-        System.out.println(sonuc);
+        System.out.println(sonuc);//Sayi asal degil
         
     }
 }
